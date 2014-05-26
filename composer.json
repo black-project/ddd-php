@@ -1,0 +1,19 @@
+{
+    "name": "black/ddd-php",
+    "description": "Implements DDD in PHP",
+    "type": "library",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre 'pocky' Balmes ",
+            "email": "albalmes@gmail.com",
+            "homepage": "http://www.lablackroom.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"Black\\": "src/Black"}
+    }
+}
