@@ -16,7 +16,7 @@ namespace Black\DDD\DDDinPHP\Application\Service;
  *
  * @package Black\DDD\DDDinPHP\Application\Service
  */
-interface ServiceInterface
+interface SpecificationInterface
 {
-
+    public function isSatisfiedBy($object);
 } 

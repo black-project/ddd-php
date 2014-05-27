@@ -16,7 +16,7 @@ namespace Black\DDD\DDDinPHP\Application\Specification;
  *
  * @package Black\DDD\DDDinPHP\Application\Specification
  */
-interface SpecificationInterface
+interface ServiceInterface
 {
 
 } 

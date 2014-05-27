@@ -18,7 +18,5 @@ namespace Black\DDD\DDDinPHP\Application\DTO;
  */
 interface DTOInterface extends \Serializable
 {
-    public function serialize();
 
-    public function unserialize($data);
 } 
