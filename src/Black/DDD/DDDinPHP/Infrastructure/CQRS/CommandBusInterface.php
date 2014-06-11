@@ -16,7 +16,7 @@ namespace Black\DDD\DDDinPHP\Infrastructure\CQRS;
  *
  * @package Black\DDD\Infrastructure\CQRS
  */
-interface CommandBus
+interface CommandBusInterface
 {
     public function handle($command);
 } 
