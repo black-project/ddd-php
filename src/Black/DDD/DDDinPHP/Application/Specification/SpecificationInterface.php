@@ -9,14 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Black\DDD\DDDinPHP\Application\Service;
+namespace Black\DDD\DDDinPHP\Application\Specification;
 
 /**
  * Interface SpecificationInterface
  *
- * @package Black\DDD\DDDinPHP\Application\Service
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface SpecificationInterface
 {
-    public function isSatisfiedBy($object);
+
 } 

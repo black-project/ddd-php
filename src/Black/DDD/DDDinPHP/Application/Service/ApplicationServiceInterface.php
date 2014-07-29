@@ -9,14 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Black\DDD\DDDinPHP\Application\Specification;
+namespace Black\DDD\DDDinPHP\Application\Service;
 
 /**
- * Interface SpecificationInterface
+ * Interface ApplicationServiceInterface
  *
- * @package Black\DDD\DDDinPHP\Application\Specification
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface ServiceInterface
+interface ApplicationServiceInterface
 {
 
 } 

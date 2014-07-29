@@ -16,7 +16,7 @@ namespace Black\DDD\DDDinPHP\Infrastructure\Service;
  *
  * @package Black\DDD\DDDinPHP\Infrastructure\Service
  */
-interface ServiceInterface
+interface InfrastructureServiceInterface
 {
 
 } 
