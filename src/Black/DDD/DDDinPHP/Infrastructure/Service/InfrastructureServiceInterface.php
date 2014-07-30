@@ -12,9 +12,10 @@
 namespace Black\DDD\DDDinPHP\Infrastructure\Service;
 
 /**
- * Interface ServiceInterface
+ * Interface InfrastructureServiceInterface
  *
- * @package Black\DDD\DDDinPHP\Infrastructure\Service
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface InfrastructureServiceInterface
 {

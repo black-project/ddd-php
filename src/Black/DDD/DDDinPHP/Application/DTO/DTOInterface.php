@@ -14,7 +14,8 @@ namespace Black\DDD\DDDinPHP\Application\DTO;
 /**
  * Interface DTOInterface
  *
- * @package Black\DDD\DDDinPHP\Application\DTO
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface DTOInterface extends \Serializable
 {

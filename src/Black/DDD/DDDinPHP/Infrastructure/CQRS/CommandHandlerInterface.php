@@ -14,7 +14,8 @@ namespace Black\DDD\DDDinPHP\Infrastructure\CQRS;
 /**
  * Interface CommandHandlerInterface
  *
- * @package Black\DDD\DDDinPHP\Infrastructure\CQRS
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface CommandHandlerInterface
 {

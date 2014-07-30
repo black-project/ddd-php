@@ -12,9 +12,10 @@
 namespace Black\DDD\DDDinPHP\Infrastructure\CQRS;
 
 /**
- * Interface CommandBus
+ * Interface CommandBusInterface
  *
- * @package Black\DDD\Infrastructure\CQRS
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface CommandBusInterface
 {

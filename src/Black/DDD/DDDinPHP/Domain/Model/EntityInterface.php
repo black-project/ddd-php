@@ -14,7 +14,8 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
 /**
  * Interface EntityInterface
  *
- * @package Black\DDD\DDDinPHP\Domain\Model
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface EntityInterface
 {

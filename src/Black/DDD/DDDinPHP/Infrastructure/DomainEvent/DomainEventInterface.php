@@ -14,7 +14,8 @@ namespace Black\DDD\DDDinPHP\Infrastructure\DomainEvent;
 /**
  * Interface DomainEventInterface
  *
- * @package Black\DDD\DDDinPHP\Infrastructure\DomainEvent
+ * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
+ * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface DomainEventInterface
 {
