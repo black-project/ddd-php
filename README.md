@@ -1,7 +1,7 @@
 DDD PHP
 =======
 
-__DDD in PHP__ is a simple project (a folder structure) for your project build with [1][Domain Drive Design].
+__DDD in PHP__ is a simple project (a folder structure) for your project build with [Domain Drive Design][1].
 
 Installation
 ------------
@@ -51,7 +51,7 @@ License
 -------
 `DDD in PHP` is released under the MIT License. See the bundled LICENSE file for details.
 
-[1]: Domain driven design
+[1]: http://dddcommunity.org/
 [2]: http://getcomposer.org/
 [3]: mailto:alexandre@lablackroom.com
 [4]: https://github.com/willdurand/Hateoas
