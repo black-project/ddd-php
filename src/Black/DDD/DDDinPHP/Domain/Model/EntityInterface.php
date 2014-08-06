@@ -14,6 +14,11 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
 /**
  * Interface EntityInterface
  *
+ * Objects that have a distinct identity that runs through time and different representations.
+ * You also hear these called "reference objects".
+ *
+ * @see     http://martinfowler.com/bliki/EvansClassification.html
+ *
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */

@@ -14,6 +14,14 @@ namespace Black\DDD\DDDinPHP\Infrastructure\DomainEvent;
 /**
  * Interface DomainEventInterface
  *
+ * Domain events are similar to messaging-style eventing, with one key difference.
+ * With true messaging and a service bus, a message is fired and handled to asynchronously.
+ * With domain events, the response is synchronous.
+ *
+ * Using domain events is rather straight forward.
+ *
+ * @see     http://lostechies.com/jimmybogard/2010/04/08/strengthening-your-domain-domain-events/
+ *
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */

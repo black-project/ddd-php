@@ -14,6 +14,11 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
 /**
  * Interface ValueObjectInterface
  *
+ * Objects that matter only has the combination of their attributes.
+ * Two value objects with the same values for all their attributes are considered equal.
+ *
+ * @see     http://martinfowler.com/bliki/EvansClassification.html
+ *
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
