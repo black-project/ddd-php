@@ -1,7 +1,7 @@
 DDD PHP
 =======
 
-__DDD in PHP__ is a simple project (a folder structure) for your project build with [Domain Drive Design][1].
+__DDD in PHP__ is a simple project (a folder structure) for your project build with [Domain Driven Design][1].
 
 Installation
 ------------
@@ -23,8 +23,8 @@ Why?
 ----
 
 First, I want to create a folder structure for my continuous project based on semantic. This small library is a good
-start for my project and, even if some parts of this integration versus DDD rules are discutables, this work will work for
-a lot a project.
+start for my project and, even if some parts of this integration versus DDD rules are questionable, this library will
+work for a lot a project.
 
 Usage
 -----
