@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Domain\Model;
 
 /**
- * Interface EntityInterface
+ * Interface Entity
  *
  * Objects that have a distinct identity that runs through time and different representations.
  * You also hear these called "reference objects".
@@ -22,7 +22,7 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface EntityInterface
+interface Entity
 {
 
 } 

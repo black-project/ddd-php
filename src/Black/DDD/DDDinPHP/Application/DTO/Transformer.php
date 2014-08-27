@@ -10,10 +10,10 @@
 
 namespace Black\DDD\DDDinPHP\Application\DTO;
 
-use Black\DDD\DDDinPHP\Domain\Model\EntityInterface;
+use Black\DDD\DDDinPHP\Domain\Model\Entity;
 
 /**
- * Interface TransformerInterface
+ * Interface Transformer
  *
  * A DTO transformer is a special service to transform/reverse transform an Entity to a Data Transfer Object.
  * Use this (optional) and not pure-DDD service if you want to centralize the transformation of your Data Transfer
@@ -22,21 +22,21 @@ use Black\DDD\DDDinPHP\Domain\Model\EntityInterface;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface DTOTransformerInterface
+interface Transformer
 {
     /**
      * Transform an Entity to a Data Transfer Object
      *
-     * @param EntityInterface $entity
+     * @param Entity $entity
      * @return mixed
      */
-    public function transform(EntityInterface $entity);
+    public function transform(Entity $entity);
 
     /**
      * Transform a Data Transfer Object to an Entity
      *
-     * @param DTOInterface $dto
+     * @param DTO $dto
      * @return mixed
      */
-    public function reverseTransform(DTOInterface $dto);
+    public function reverseTransform(DTO $dto);
 } 

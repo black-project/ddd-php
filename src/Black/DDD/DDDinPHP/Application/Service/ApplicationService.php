@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Application\Service;
 
 /**
- * Interface ApplicationServiceInterface
+ * Interface ApplicationService
  *
  * Application Services are the interface used by the outside world, where the outside world can’t communicate via our
  * Entity objects, but may have other representations of them.  Application Services could map outside messages to
@@ -24,7 +24,7 @@ namespace Black\DDD\DDDinPHP\Application\Service;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface ApplicationServiceInterface
+interface ApplicationService
 {
 
 } 

@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Application\Specification;
 
 /**
- * Interface SpecificationInterface
+ * Interface Specification
  *
  * A specification pattern outlines a business rule that is combinable with other business rules.
  * In this pattern, a unit of business logic inherits its functionality from the abstract aggregate
@@ -27,7 +27,7 @@ namespace Black\DDD\DDDinPHP\Application\Specification;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface SpecificationInterface
+interface Specification
 {
 
 } 

@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Infrastructure\Service;
 
 /**
- * Interface InfrastructureServiceInterface
+ * Interface InfrastructureService
  *
  * These are services that typically talk to external resources and are not part of the primary problem domain.
  * The common examples that I see for this are emailing and logging. When trying to categorize an Infrastructure service,
@@ -26,7 +26,7 @@ namespace Black\DDD\DDDinPHP\Infrastructure\Service;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface InfrastructureServiceInterface
+interface InfrastructureService
 {
 
 } 

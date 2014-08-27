@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Infrastructure\Persistence;
 
 /**
- * Interface RepositoryInterface
+ * Interface Repository
  *
  * Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.
  *
@@ -21,7 +21,7 @@ namespace Black\DDD\DDDinPHP\Infrastructure\Persistence;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface RepositoryInterface
+interface Repository
 {
     public function findAll();
 } 

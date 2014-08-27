@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Application\DTO;
 
 /**
- * Interface DTOInterface
+ * Interface DTO
  *
  * Data transfer object (DTO) is an object that carries data between processes. The motivation for its use has to do
  * with the fact that communication between processes is usually done resorting to remote interfaces
@@ -27,7 +27,7 @@ namespace Black\DDD\DDDinPHP\Application\DTO;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface DTOInterface extends \Serializable
+interface DTO extends \Serializable
 {
 
 } 

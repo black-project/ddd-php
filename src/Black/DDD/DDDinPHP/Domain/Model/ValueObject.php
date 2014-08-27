@@ -12,7 +12,7 @@
 namespace Black\DDD\DDDinPHP\Domain\Model;
 
 /**
- * Interface ValueObjectInterface
+ * Interface ValueObject
  *
  * Objects that matter only has the combination of their attributes.
  * Two value objects with the same values for all their attributes are considered equal.
@@ -22,7 +22,7 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface ValueObjectInterface
+interface ValueObject
 {
     /**
      * Return the value of the ValueObject. The value *MUST* be immutable
