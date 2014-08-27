@@ -14,6 +14,6 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": {"Black\\DDD\\DDDinPHP": "src/Black/DDD/DDDinPHP"}
+        "psr-4": {"Black\\DDD\\DDDinPHP\\": "src/Black/DDD/DDDinPHP/"}
     }
 }
