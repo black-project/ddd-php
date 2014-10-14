@@ -1,7 +1,9 @@
 {
     "name": "black/ddd-php",
-    "description": "Implements DDD in PHP",
     "type": "library",
+    "description": "Implements DDD in PHP",
+    "keywords": ["libary", "black-project", "ddd"],
+    "homepage": "http://www.lablackroom.com",
     "licence": "MIT",
     "authors": [
         {
@@ -10,10 +12,12 @@
             "homepage": "http://www.lablackroom.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Black\\DDD\\DDDinPHP\\": "src/Black/DDD/DDDinPHP/"
+        }
+    },
     "require": {
         "php": ">=5.4.0"
-    },
-    "autoload": {
-        "psr-4": {"Black\\DDD\\DDDinPHP\\": "src/Black/DDD/DDDinPHP/"}
     }
 }
