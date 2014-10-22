@@ -29,4 +29,4 @@ namespace Black\DDD\DDDinPHP\Infrastructure\Service;
 interface InfrastructureService
 {
 
-} 
+}

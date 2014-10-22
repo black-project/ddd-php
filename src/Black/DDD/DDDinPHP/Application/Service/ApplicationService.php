@@ -27,4 +27,4 @@ namespace Black\DDD\DDDinPHP\Application\Service;
 interface ApplicationService
 {
 
-} 
+}

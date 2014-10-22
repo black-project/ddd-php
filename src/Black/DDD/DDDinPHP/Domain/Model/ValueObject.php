@@ -30,4 +30,4 @@ interface ValueObject
      * @return mixed
      */
     public function getValue();
-} 
+}

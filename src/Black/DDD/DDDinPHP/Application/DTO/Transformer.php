@@ -27,7 +27,7 @@ interface Transformer
     /**
      * Transform an Entity to a Data Transfer Object
      *
-     * @param Entity $entity
+     * @param  Entity $entity
      * @return mixed
      */
     public function transform(Entity $entity);
@@ -35,8 +35,8 @@ interface Transformer
     /**
      * Transform a Data Transfer Object to an Entity
      *
-     * @param DTO $dto
+     * @param  DTO   $dto
      * @return mixed
      */
     public function reverseTransform(DTO $dto);
-} 
+}

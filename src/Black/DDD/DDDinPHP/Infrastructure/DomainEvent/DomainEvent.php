@@ -28,4 +28,4 @@ namespace Black\DDD\DDDinPHP\Infrastructure\DomainEvent;
 interface DomainEvent
 {
 
-} 
+}

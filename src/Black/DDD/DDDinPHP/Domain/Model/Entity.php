@@ -25,4 +25,4 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
 interface Entity
 {
 
-} 
+}

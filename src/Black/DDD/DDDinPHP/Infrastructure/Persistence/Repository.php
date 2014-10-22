@@ -24,4 +24,4 @@ namespace Black\DDD\DDDinPHP\Infrastructure\Persistence;
 interface Repository
 {
     public function findAll();
-} 
+}

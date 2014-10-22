@@ -30,4 +30,4 @@ namespace Black\DDD\DDDinPHP\Application\Specification;
 interface Specification
 {
 
-} 
+}
