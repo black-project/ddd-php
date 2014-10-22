@@ -13,18 +13,16 @@ namespace Black\DDD\DDDinPHP\Application\DTO;
 use Black\DDD\DDDinPHP\Domain\Model\Entity;
 
 /**
- * Interface Transformer
+ * Interface Assembler
  *
- * A DTO transformer is a special service to transform/reverse transform an Entity to a Data Transfer Object.
+ * A DTO assembler is a special service to transform/reverse transform an Entity to a Data Transfer Object.
  * Use this (optional) and not pure-DDD service if you want to centralize the transformation of your Data Transfer
  * Object.
- *
- * @deprecated since version 1.2.3. Will be removed in 2.0.0
  *
  * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
  * @license http://opensource.org/licenses/mit-license.php MIT
  */
-interface Transformer
+interface Assembler
 {
     /**
      * Transform an Entity to a Data Transfer Object
