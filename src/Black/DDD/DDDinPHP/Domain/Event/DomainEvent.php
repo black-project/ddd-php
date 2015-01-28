@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Black\DDD\DDDinPHP\Infrastructure\DomainEvent;
+namespace Black\DDD\DDDinPHP\Domain\Event;
 
 /**
  * Interface DomainEvent

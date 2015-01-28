@@ -9,12 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Black\DDD\DDDinPHP\Infrastructure\Persistence;
+namespace Black\DDD\DDDinPHP\Domain\Model;
 
 /**
  * Interface Repository
  *
- * Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.
+ * Mediates between the domain and data mapping layers using a collection-like
+ * interface for accessing domain objects.
+ *
+ * Your concrete implementation must be in Infrastructure layer in Persistence directory
  *
  * @see     http://martinfowler.com/eaaCatalog/repository.html
  *
