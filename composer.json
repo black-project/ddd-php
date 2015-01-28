@@ -2,9 +2,9 @@
     "name": "black/ddd-php",
     "type": "library",
     "description": "Implements DDD in PHP",
-    "keywords": ["libary", "black-project", "ddd"],
+    "keywords": ["library", "black-project", "ddd"],
     "homepage": "http://www.lablackroom.com",
-    "licence": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexandre 'pocky' Balmes ",
