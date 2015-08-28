@@ -21,9 +21,6 @@ namespace Black\DDD\DDDinPHP\Domain\Event;
  * Using domain events is rather straight forward.
  *
  * @see     http://lostechies.com/jimmybogard/2010/04/08/strengthening-your-domain-domain-events/
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface DomainEvent
 {

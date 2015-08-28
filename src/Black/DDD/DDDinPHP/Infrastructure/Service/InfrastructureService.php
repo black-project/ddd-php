@@ -22,9 +22,6 @@ namespace Black\DDD\DDDinPHP\Infrastructure\Service;
  * If I remove this service, will it affect the execution of my application?
  *
  * @see     http://www.bennadel.com/blog/2385-application-services-vs-infrastructure-services-vs-domain-services.htm
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface InfrastructureService
 {

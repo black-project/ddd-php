@@ -23,11 +23,8 @@ namespace Black\DDD\DDDinPHP\Application\Specification;
  * have its state altered in order to become,a delegate of other classes such as a persistence repository.
  *
  * @see     http://en.wikipedia.org/wiki/Specification_pattern
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface Specification
 {
-
+    public function isSatisfiedBy($object);
 }

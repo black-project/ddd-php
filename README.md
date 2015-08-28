@@ -34,12 +34,25 @@ Usage
 
 This project is a simple folder structure with interfaces (with simple contracts). Follow this structure and your project
  will follow DDD (not exactly true but your design will be fine).
+ 
+Why you should not use this library in your project?
+---
 
+For a lot of good reasons like :
+
+- Repository interface is in Domain\Model with 4 basics functions. If you want to add CQRS pattern over this interface, you
+will need a Read and a Write side so you can't scale with this interface.
+
+- Repository::find() need a ValueObject. Create a concrete ValueObject implementing ValueObjectInterface and job is done... Or not
+You can't accept all ValueObject for find so you will write a condition for testing the $id and use or throw an InvalidArgumentException.
+
+So my advice (after 17 months) is: Do you want to create a DDD project? If yes, follow the rules of this package and you will create a DDD 
+project but you should not implement this in your project.
 
 Contributing
 ------------
 
-This project is a work in prrogress so don't hesitate to see CONTRIBUTING file and submit your PR.
+This project is a work in progress so don't hesitate to see CONTRIBUTING file and submit your PR.
 
 Credits
 -------

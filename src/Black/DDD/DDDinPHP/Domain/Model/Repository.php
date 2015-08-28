@@ -20,11 +20,14 @@ namespace Black\DDD\DDDinPHP\Domain\Model;
  * Your concrete implementation must be in Infrastructure layer in Persistence directory
  *
  * @see     http://martinfowler.com/eaaCatalog/repository.html
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface Repository
 {
     public function findAll();
+
+    public function find(ValueObject $vo);
+
+    public function add(Entity $entity);
+
+    public function remove(Entity $entity);
 }

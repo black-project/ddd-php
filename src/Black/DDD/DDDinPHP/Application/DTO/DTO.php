@@ -23,9 +23,6 @@ namespace Black\DDD\DDDinPHP\Application\DTO;
  * been transferred by the several calls, but that is served by one call only.
  *
  * @see     http://en.wikipedia.org/wiki/Data_transfer_object
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface DTO extends \Serializable
 {

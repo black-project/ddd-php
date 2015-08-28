@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the Black package.
  *
@@ -18,9 +19,6 @@ use Black\DDD\DDDinPHP\Domain\Model\Entity;
  * A DTO assembler is a special service to transform/reverse transform an Entity to a Data Transfer Object.
  * Use this (optional) and not pure-DDD service if you want to centralize the transformation of your Data Transfer
  * Object.
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface Assembler
 {

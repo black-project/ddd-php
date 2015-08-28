@@ -20,9 +20,6 @@ namespace Black\DDD\DDDinPHP\Application\Service;
  * cohesive operations for outside clients.
  *
  * @see     http://lostechies.com/jimmybogard/2008/08/21/services-in-domain-driven-design/
- *
- * @author  Alexandre 'pocky' Balmes <alexandre@lablackroom.com>
- * @license http://opensource.org/licenses/mit-license.php MIT
  */
 interface ApplicationService
 {
